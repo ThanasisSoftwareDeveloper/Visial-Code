@@ -1,6 +1,6 @@
 # Visial-Code
 
-18 <ul> unordered and 
+18  unordered <ul> and 
       <ol>ordered 
             <li>lists
             
