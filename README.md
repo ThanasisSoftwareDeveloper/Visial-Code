@@ -2,6 +2,6 @@
 
 18  unordered <ul> and 
        ordered <ol>
-             lists # <li>
+             lists (<li>)
             
 19 Nesting and Indentation
