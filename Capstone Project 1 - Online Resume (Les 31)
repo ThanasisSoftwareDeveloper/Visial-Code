@@ -7,14 +7,14 @@
 </head>
 <body>
     <h1>Athanasios Koufos</h1> 
-    <img src="./4.3 HTML Porfolio Project/assets/images/Profile photo Sept 2022.jpg" height="100" alt="my foto">
+    <img src="./assets/images/Profile photo Sept 2022.jpg" height="100" alt="my foto">
     
     <h2>Summary </h2>
     <h3>Software Engineer, specializing in Web developement, full stuck.</h3>
     <hr>
     <h2>Education </h2>
     <h3>Hellenic Open University, Patra (Greece) — Master of Science
-        OCTOBER 2020 – SEPTEMBER 2023 (Graduated)
+        October 2020 – September 2023 (Graduated)
     </h3>
     <hr>
     <h2>Work experience</h2>
@@ -69,6 +69,15 @@
         <li>English (B2 level)</li>
         <li>Spanish (B2 level)</li>
     </ul>
-
+    <hr>
+    <h3> ...Also</h3>
+    <h4><a href="./public/hobbies.html">Hobbies </a></h4>
+    <h4><a href="./public/contact.html">Contact me </a></h4>
+    
+    <footer>
+        <p>
+            ©2023 Athanasios Koufos. All rights reserved.
+        </p>
+    </footer>
 </body>
 </html>
