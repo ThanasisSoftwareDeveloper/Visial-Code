@@ -47,7 +47,7 @@
     color: green;
 }
 #yellow{
-    color: yellowgreen;
+    color: yellow;
 }
 .color-tithle{
     font-weight: normal
