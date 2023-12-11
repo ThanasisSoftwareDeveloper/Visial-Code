@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Cascade</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="outer-box" class="box">
+    <div class="box">
+      <p>Yellow Text</p>
+      <div class="box inner-box">
+        <p class="white-text">White Text</p>
+      </div>
+    </div>
+    <div class="box">
+      <p>Yellow Text</p>
+      <div class="box inner-box">
+        <p class="white-text">White Text</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+
+<!-- now CSS code, style.css-->
+/* Don't change the existing CSS. */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+ }
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+.white-text{
+  color: white;
+}
+
+.inner-box{
+  background-color: red;
+}
+
+#outer-box{
+  border: 10px solid purple;
+  background-color: blue;
+}
