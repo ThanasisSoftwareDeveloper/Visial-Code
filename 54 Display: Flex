@@ -21,6 +21,7 @@
       background-color: gold;
       display: flex;
       gap: 1rem;
+/*all it's needed are two lines above*/
     }
 
   </style>
