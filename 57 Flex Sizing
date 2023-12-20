@@ -6,24 +6,28 @@ https://appbrewery.github.io/flexbox-sizing-exercise/
 /* Write your CSS code below to make the blue items size, grow and shrink like the green ones.*/
 
 .container {
-  display: flex;
-  gap: 10px
+   justify-content: space-between;
+
 }
   
 .container > * {
-flex-basis: 300px
+
 }
 
 .item1 {
- max-width: 200px;
-min-width: 50px;
+flex-basis: 200px;
 }
 
 .item2 {
-min-width: 200px
+flex-basis: 200px;
+flex-shrink: 0;
 }
 
 .item3 {
+flex-basis: 400px;
+flex-shrink: 0;
+}
+
 min-width: 400px;
 }
 
