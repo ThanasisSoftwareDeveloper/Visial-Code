@@ -28,6 +28,4 @@ flex-basis: 400px;
 flex-shrink: 0;
 }
 
-min-width: 400px;
-}
 
