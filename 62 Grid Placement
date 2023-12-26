@@ -63,3 +63,30 @@
 </body>
 
 </html>
+
+/*------------------------------------------------------
+also you can use:
+grid-column-start: 1; or grid-column: 1;
+grid-column-end: 1; 
+
+grid-column: 4 / 6;
+grid-row: 3 / 6;
+
+grid-area: 1 / 1 / 3 / 6;
+grid-area: 1 / 4 / 6 / 5;
+(and both of them many times),
+order: 1;
+grid-template-columns: 50% 50%;
+
+
+grid-template-columns: repeat(8, 12.5%);
+or
+grid-template-columns: 50px 1fr 1fr 1fr 50px;
+or
+grid-template: 60% 40%/ 200px;
+or
+grid-template: 60% / 200px;
+
+and 
+grid-template: 1fr 50px/ 20% 80%;
+---------------------*/
