@@ -48,7 +48,8 @@
       background-color: #E58331;
       /* TODO: Make the book div look like 
       the goal3 image using grid-row. */
-      grid-area: 1 / 3 / 3 / 4;
+      /*grid-area: 1 / 3 / 3 / 4; we can do like this one*/
+      grid-row: span 2;
     }
   </style>
 </head>
