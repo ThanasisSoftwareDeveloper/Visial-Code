@@ -1,0 +1,8 @@
+Exercise X:
+
+/*"You have written 80, you have 200 characters left*/
+
+
+var tweet= prompt("Compose your tweet");
+var tweetCount=tweet.length;
+alert("You have written "+tweetCount+", you have "+(280-tweetCount)+" characters left");
