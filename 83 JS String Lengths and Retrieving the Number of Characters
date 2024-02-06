@@ -1,6 +1,6 @@
 Exercise X:
 
-/*"You have written 80, you have 200 characters left*/
+/*You have written 80, you have 200 characters left*/
 
 
 var tweet= prompt("Compose your tweet");
