@@ -1,0 +1,7 @@
+// Slicing and Extracting Parts of a String
+
+var tweet= prompt("Compose your tweet");
+var tweetCount=tweet.length;
+var tweeUnder140=tweet.slice(0,141);
+alert("You have written "+tweetCount+" and "+(-(140-tweetCount))+" characters have deleted");
+alert(tweeUnder140);
