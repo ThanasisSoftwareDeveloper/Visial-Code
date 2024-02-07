@@ -5,3 +5,6 @@ var tweetCount=tweet.length;
 var tweeUnder140=tweet.slice(0,141);
 alert("You have written "+tweetCount+" and "+(-(140-tweetCount))+" characters have deleted");
 alert(tweeUnder140);
+
+//or in ONLY a line to Extract Parts of a String:
+alert(prompt("Compose your tweet").slice(0,141));
