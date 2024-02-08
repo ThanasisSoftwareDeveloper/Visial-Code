@@ -1,0 +1,5 @@
+//alert a promt, changing ONLY 1st letter to upper case and the rest of them to lower case:
+
+var name=prompt("What is your name?");
+name=((name.slice(0,1)).toUpperCase()+(name.slice(1,name.length)).toLowerCase());
+alert("Hello, "+name+"!");
