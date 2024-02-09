@@ -6,5 +6,7 @@ function getMilk(){
 getMilk();
 /* “console.log” same as “alert” with two deffernces:
  - “console.log” can see only developer, not user
--  with “alert” you have to hit “Enter”, every time.
+ - with “alert” you have to hit “Enter”, every time.
+Firstly, “Ctrl”+F and then “Replace all” */
+
 
