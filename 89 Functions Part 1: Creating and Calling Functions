@@ -1,1 +1,10 @@
+function getMilk(){
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveForward");    
+}
+getMilk();
+/* “console.log” same as “alert” with two deffernces:
+ - “console.log” can see only developer, not user
+-  with “alert” you have to hit “Enter”, every time.
 
