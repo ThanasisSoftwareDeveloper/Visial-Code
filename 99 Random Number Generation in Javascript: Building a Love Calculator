@@ -4,6 +4,5 @@ prompt("What's your name?");
 prompt("What's the name of your crush");
 var n=Math.random();
 n=n*100;
-n=Math.floor(n);
-76%
-console.log("Dr. Love thinks that your relationship has a "+n+"% chance of being successful");
+n=Math.floor(n)+1;
+alert("Your relationship has a "+n+"% chance of being successful");
