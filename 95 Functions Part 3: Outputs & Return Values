@@ -31,7 +31,7 @@ function calcChange(startingAmount, costPerBottle){
   var change=startingAmount%costPerBottle;
   return change;
 }
-console.log("Hello, here is your "+getMilk(10, 3)+" bottles of milk and "+change+" euros");
+console.log("Hello, here is your "+calcBottles(10, 3)+" bottles of milk and "+getMilk(10, 3)+" euros");
 
 
 
