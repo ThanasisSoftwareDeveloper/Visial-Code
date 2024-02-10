@@ -26,3 +26,5 @@ return money%1.5;
 }
 var change=getMilk(5);
 console.log(change);
+
+
