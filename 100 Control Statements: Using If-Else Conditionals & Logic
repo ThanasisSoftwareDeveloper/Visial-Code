@@ -7,7 +7,7 @@ n=n*100;
 n=Math.floor(n)+1;//1-100
 
 if(n===100){
-    alert("Your love score is "+n+" %"+" you love each other like yourselfes");
+    alert("Your love score is "+n+" %"+" you love each other like yourselves");
 }else{
     alert("Your love score is "+n+" %");
 }
