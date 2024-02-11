@@ -1,1 +1,17 @@
+prompt("What's your name?");
+prompt("What's the name of your crush");
+var n=Math.random();
+n=n*100;
+n=Math.floor(n)+1;//1-100
+
+if(n>70){
+    alert("Your love score is "+n+" %"+" you love each other like yourselves");
+}
+
+if (n>30 && n<=70) {
+    alert("Your love score is "+n+" %");
+}
+else {
+    alert("Your love score is "+n+" %, you have to try more");
+}
 
