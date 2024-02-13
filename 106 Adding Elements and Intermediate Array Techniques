@@ -18,7 +18,7 @@ var fizzBuzz=fizzBuzz;
 
 function fizzBuzz(){
 
-    if (count%3===0 && count%5===0){
+    if (count%3===0 && count%5===0){   //because skips all next statements!!!
         output.push("fizzBuzz");
     }
     else if (count%3===0){
