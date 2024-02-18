@@ -1,0 +1,12 @@
+//Lyrics of the song 99 Bottles of Beer
+
+function beer() {
+    var i=99;
+    var j=98;
+    while (i<0 && j<0) {
+        console.log(i+" bottles of beer on the wall, "+i+ "bottles of beer.Take one down and pass it around, "+j+" bottles of beer on the wall.");
+        i--;
+        j--; 
+        
+    }        
+}
