@@ -1,1 +1,10 @@
+        start  	end 	c  hange
+for( var i=1; 	i<2; 	i++;){
+	//do something
+}
 
+
+/*differences  while  - for:
+while : state
+for : iterate 
+*/
