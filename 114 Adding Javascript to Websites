@@ -1,0 +1,15 @@
+Methods for adding JS:
+inline
+<body onload="alert('Hello')">
+better avoid it, it’s difficult to debug it!
+
+
+internal
+<script type="text/javascipt">
+ </script>
+
+
+external
+<script src="index.js" charset="UTF-8"> </script>
+before the body closing tag.
+code is faster!!!
