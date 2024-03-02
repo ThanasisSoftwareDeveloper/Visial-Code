@@ -1,0 +1,32 @@
+Console:
+1st way
+document.getElementsByTagName("li");
+
+
+document.getElementsByTagName("li")[2].style.color="blue";
+
+
+2nd way
+document.getElementsByClassName("btn")[0].style.color="red";
+[0] even if there is only one element!!!
+
+
+3rd way
+document.getElementById("title");
+
+
+document.getElementById("title").innerHTML="HI";
+
+
+4th way (queries - selectors):
+
+document.querySelector("h1");
+document.querySelector("#title");
+document.querySelector(".btn");
+document.querySelector("li a"); // combine with space (belong to deferred elements)
+document.querySelector("li.item"); // combine without space (same elements),
+document.querySelector("#list a");  // combine with space (belong to deferred elements)
+document.querySelectorAll("#list .item");// many elements satisfy selector
+
+example:
+document.querySelector("#list a").style.color="red";
