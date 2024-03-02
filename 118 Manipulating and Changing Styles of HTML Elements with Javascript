@@ -1,0 +1,10 @@
+
+
+
+document.querySelector("h1").style.color="blue"; // specify as a string,  unlike CSS
+document.querySelector("h1").style.fontSize="15rem"; // specify as a string
+document.querySelector("h1").style.visibility="hidden";  // specify as a string
+document.querySelector("h1").style.visibility="visible";   // specify as a string
+
+
+document.querySelector(".btn").style.backgroundColor="yellow";
