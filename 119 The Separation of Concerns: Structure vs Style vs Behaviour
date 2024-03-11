@@ -1,0 +1,8 @@
+document.querySelector("button").classList;
+
+//response:
+//DOMTokenList ['btn', value: 'btn']
+
+document.querySelector("button").classList.add("invisible");
+
+//response: <button class="btn invisible">Click Me</button>
