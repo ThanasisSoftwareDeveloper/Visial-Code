@@ -6,3 +6,6 @@ document.querySelector("button").classList;
 document.querySelector("button").classList.add("invisible");
 
 //response: <button class="btn invisible">Click Me</button>
+
+document.querySelector("button").classList.remove("invisible");
+//response: <button class="btn">Click Me</button>
