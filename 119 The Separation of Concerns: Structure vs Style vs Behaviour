@@ -13,3 +13,12 @@ document.querySelector("button").classList.remove("invisible");
 
 document.querySelector("button").classList.toggle("invisible");
 //response: opposite every time
+
+
+document.querySelector("h1").classList.add("rem10");
+
+.rem10{
+  font-size:  10rem;
+}
+document.querySelector("h1").classList.toggle("rem10");// big 10 rem
+document.querySelector("h1").classList.toggle("rem10"); // previous
