@@ -1,1 +1,10 @@
+document.querySelector("a").attributes;
+//result: NamedNodeMap {0: href, href: href, length: 1}
+// attributes of a
+
+document.querySelector("a").getAttribute("href");
+//result: 'https://www.google.com'
+//only href
+
+document.querySelector("a").setAttribute("href", "https://www.bing.com");// we change href completely!
 
