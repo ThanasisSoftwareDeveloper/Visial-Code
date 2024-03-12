@@ -1,0 +1,10 @@
+document.getElementById("title").innerHTML="HI";   //all between element tags
+//response: 'HI'
+
+
+document.getElementById("title").textContent="Hello";  //only the text between element tags
+//response: 'Hello'
+
+
+document.querySelector("h1").innerHTML= "<em>Hello Depi</em>";// change text on the fly
+//response: 'Hello Depi'//italic
