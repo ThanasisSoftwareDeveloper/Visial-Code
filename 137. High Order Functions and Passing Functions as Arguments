@@ -16,6 +16,9 @@ function calculator(num1, num2, operator) {  // High Order Functions and Passing
     return operator(num1,num2);
 }
 
+//caal:
+calculator(3,4,add);
+
 //also:
 debugger;
 calculator(3,4, multiply);
