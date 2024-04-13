@@ -12,7 +12,7 @@ function subtrack(num1, num2){
 function divide (num1, num2){
     return num1/num2;
 }
-function calculator(num1, num2, operator) {  // High Order Functions and Passing Functions as Arguments
+function calculator(num1, num2, operator) {   // High Order Functions and Passing Functions as Arguments
     return operator(num1,num2);
 }
 
