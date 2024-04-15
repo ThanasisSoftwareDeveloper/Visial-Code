@@ -10,3 +10,23 @@ var developer1 ={
 
 // call it:
 developer1;
+
+//or only name of it:
+console.log(developer1.name);
+
+
+--------------JS Constructor Function------------------
+
+function Developer(name, age, languages) {
+    this.name = name;
+    this.age = age;
+    this.languages = languages;
+}
+
+//initialize an Object:
+
+var developer1 = Developer ("Thanasis", 45, ["Java", "Python"]);
+var developer2 = Developer("Makis", 42, ["Kotlin"]);
+
+//and call it:
+console.log(developer1.name);
