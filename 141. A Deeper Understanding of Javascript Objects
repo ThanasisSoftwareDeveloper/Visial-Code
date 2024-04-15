@@ -1,0 +1,12 @@
+
+
+---------Javascript Objects-------
+var developer1 ={
+    name: "Thanasis",
+    age: 45,
+    languages: ["Java", "Python"]
+}
+
+
+// call it:
+developer1;
