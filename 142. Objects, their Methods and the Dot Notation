@@ -23,3 +23,9 @@ function Developer(name, age, languages) {
         testWebSite();
     }
 }
+
+//fullfillng....
+var developer1=new Developer("Thanasis", 45, ["Python"]);
+
+// call method:
+developer1.webPage();
