@@ -19,7 +19,7 @@ function Developer(name, age, languages) {
     this.languages = languages;
     this.webPage= function(){                  // anonymous function
         alert("How can I serve you, please?");
-        openFrame();
+        beginDeveloping();
         testWebSite();
     }
 }
