@@ -11,3 +11,15 @@ var developer1 ={
     }
 }
 
+--------------JS Constructor Function------------------
+
+function Developer(name, age, languages) {
+    this.name = name;
+    this.age = age;
+    this.languages = languages;
+    this.webPage= function(){                  // anonymous function
+        alert("How can I serve you, please?");
+        openFrame();
+        testWebSite();
+    }
+}
