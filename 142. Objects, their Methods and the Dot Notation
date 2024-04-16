@@ -1,1 +1,13 @@
 
+
+var developer1 ={
+    name: "Thanasis",
+    age: 45,
+    languages: ["Java", "Python"],
+    webPage: function(){                  // anonymous function
+        alert("How can I serve you, please?");
+        openFrame();
+        testWebSite();
+    }
+}
+
