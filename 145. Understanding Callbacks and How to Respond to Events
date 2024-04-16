@@ -1,0 +1,36 @@
+$0.addEventListener("click", function(event) {
+    console.log(event);    
+})
+
+//or
+$0.addEventListener("click", function(e) {
+    console.log(e);    
+})
+
+//or
+$0.addEventListener("click", function(evt) {
+    console.log(evt);    
+})
+
+//also
+function sayIt(to) {
+    console.log("Hello "+to);
+}
+
+sayIt("Tom"); //function call
+
+//or 
+function sayIt(name) {
+    console.log("Hello "+name);
+}
+//and 
+sayIt("Thanasis"); //function call
+
+
+function anotherAddEventistener(typeOfEvent, callBack) {
+    //detect Event Code...
+    var enentThatHappened={
+        eventType:"keydown",
+        
+    }
+}
