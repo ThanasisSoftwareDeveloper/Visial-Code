@@ -1,0 +1,7 @@
+//adding animation
+
+buttonAnimation(buttonInnerHTML);
+
+//check it:
+document.querySelector(".w");
+
