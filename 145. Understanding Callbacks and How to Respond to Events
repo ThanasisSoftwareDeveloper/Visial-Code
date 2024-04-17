@@ -34,10 +34,26 @@ function anotherAddEventListener(typeOfEvent, callBack) {
     var enentThatHappened={
         eventType:"keydown",
         key:"p",
-        durationOfKeyPress:2 //it means 2sec
+        durationOfKeyPress:2 //sec
     }
 if (eventThatHappened.eventType===typeOfEvent){
     callback(eventThatHappened);
 }
 }
 
+
+anotherAddEventListener("keydown", function(event){
+    console.log(event);
+}); // TypeError: Cannot read properties of undefined (reading 'eventType')
+
+//otherwise:
+document.addEventListener("keydown", function(event){
+    console.log(event);
+});
+
+
+//check it with debugger:
+debugger;
+anotherAddEventListener("keydown", function(event){
+    console.log(event);
+});
