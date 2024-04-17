@@ -27,10 +27,17 @@ function sayIt(name) {
 sayIt("Thanasis"); //function call
 
 
-function anotherAddEventistener(typeOfEvent, callBack) {
+function anotherAddEventListener(typeOfEvent, callBack) {
+    
     //detect Event Code...
+    
     var enentThatHappened={
         eventType:"keydown",
-        
+        key:"p",
+        durationOfKeyPress:2 //it means 2sec
     }
+if (eventThatHappened.eventType===typeOfEvent){
+    callback(eventThatHappened);
 }
+}
+
