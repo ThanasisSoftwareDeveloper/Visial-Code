@@ -5,3 +5,31 @@ buttonAnimation(buttonInnerHTML);
 //check it:
 document.querySelector(".w");
 
+// adding new class, from Console:
+document.querySelector("h1").classList.add("pressed");
+
+
+
+function buttonAnimation(currentKey){
+    var activeButton= document.querySelector("."+currentKey);//because of the appearance of the class
+    activeButton.classList.add("pressed");
+
+}
+
+function buttonAnimation(currentKey){
+
+    var activeButton= document.querySelector("."+currentKey);//because of the appearance of the class
+
+    activeButton.classList.add("pressed");
+
+    setTimeout(function(){
+        activeButton.classList.remove("pressed")
+    }, 100)//after 100 miliseconds
+}
+
+--------CSS-------------------
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
